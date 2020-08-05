@@ -56,6 +56,17 @@ Value_Dict={'name':'John','e-mail':'google@gmail.com','phone':'01234762825','bir
 
 print(Value_Dict)
 
+print(Value_Dict.items())
+print(Value_Dict.keys())
+print(Value_Dict.values())
+
+for idx in Value_Dict.keys():
+    print(idx, ": ",Value_Dict[idx]);
+    
+    
+Value_Dict.clear()
+print(Value_Dict)
+    
 
 
 
