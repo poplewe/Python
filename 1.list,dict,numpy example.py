@@ -72,3 +72,5 @@ print(Value_Dict)
 print(Value_Dict.get('name'))
 
 
+print('e-mail' in Value_Dict)
+print('family' in Value_Dict)
