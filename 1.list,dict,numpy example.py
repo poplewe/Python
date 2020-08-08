@@ -1,4 +1,4 @@
-
+import numpy as np
 
 Value_List=[9,10,19,11,1,0];
 print(Value_List)
