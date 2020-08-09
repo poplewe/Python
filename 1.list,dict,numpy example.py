@@ -74,3 +74,13 @@ print(Value_Dict.get('name'))
 
 print('e-mail' in Value_Dict)
 print('family' in Value_Dict)
+
+
+a=np.zeros((3,4))
+b=np.ones((2,3,4), dtype=float)
+c=np.arange(90,200,10)
+
+
+print(a)
+print(b)
+print(c)
