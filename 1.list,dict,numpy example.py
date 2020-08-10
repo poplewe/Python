@@ -84,3 +84,11 @@ c=np.arange(90,200,10)
 print(a)
 print(b)
 print(c)
+
+
+ran_arr=np.random.random((2,3))
+print(ran_arr)
+print(len(ran_arr))
+print(ran_arr.ndim)
+print(ran_arr.size)
+
