@@ -92,3 +92,8 @@ print(len(ran_arr))
 print(ran_arr.ndim)
 print(ran_arr.size)
 
+print(ran_arr.shape)
+ran_arr=ran_arr.reshape(1,-1)
+print(ran_arr.shape)
+
+
