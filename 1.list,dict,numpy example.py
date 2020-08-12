@@ -96,4 +96,10 @@ print(ran_arr.shape)
 ran_arr=ran_arr.reshape(1,-1)
 print(ran_arr.shape)
 
+ran_arr2=np.random.random((3,6))
+print(ran_arr2)
+print(ran_arr2[1,:-1])
+
+concat_arr=np.concatenate((ran_arr,ran_arr2),axis=0)
+print(concat_arr)
 
