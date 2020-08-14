@@ -103,3 +103,12 @@ print(ran_arr2[1,:-1])
 concat_arr=np.concatenate((ran_arr,ran_arr2),axis=0)
 print(concat_arr)
 
+hsplit_arr=np.hsplit(concat_arr,2)
+print(hsplit_arr[0])
+print(hsplit_arr[1])
+print(hsplit_arr[0].shape,hsplit_arr[1].shape)
+
+vsplit_arr=np.vsplit(concat_arr,2)
+print(vsplit_arr[0])
+print(vsplit_arr[1])
+print(vsplit_arr[0].shape,vsplit_arr[1].shape)
