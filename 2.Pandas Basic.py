@@ -15,5 +15,5 @@ print(temp_series.shape)
 print(type(temp_series.iloc[0]))
 
 
-
+print(temp_series.loc[1])
 
