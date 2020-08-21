@@ -25,3 +25,10 @@ print(data_col)
 df_data=pd.DataFrame(data_arr,columns=data_col);
 print(df_data.head())
 print(df_data.shape)
+
+
+print(df_data.max())
+print(df_data.sum())
+df_func=lambda x: x*2
+df_usefunc=df_data.apply(df_func)
+print(df_usefunc)
